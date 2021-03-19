@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  font-family: "Open Sans", sans-serif;
+}
+
+header,
+footer {
+  color: white;
+}
+
+#model-card {
+  height: 70vh;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#model-card-info {
+  border-bottom: 1px solid #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#model-card-info-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#model-card-info-name {
+  font-weight: 400;
+  color: #73c399;
+}
+
+#model-card-info-title {
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #9facaa;
+}
+
+#model-card-activity {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#model-card-activity p {
+  color: #9facaa;
+}
+
+#model-card-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ececec;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.model-card-stats-item {
+  background-color: #ececec;
+  width: calc(400px / 3);
+}
+
+.model-card-stats-item + .model-card-stats-item {
+  border-left: 1px solid black;
+}
+
+#model-card-socials,
+#model-card-follow {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#model-card-socials i {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#model-card-follow-btn {
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: #35725a;
+}
